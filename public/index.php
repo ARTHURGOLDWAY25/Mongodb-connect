@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form action="/public/script.php" method="post">
+<form action="script.php" method="post">
     <label for="first_name">First Name</label>
     <input type="text" name="first_name" placeholder="First Name"> <br><br>
 
