@@ -5,13 +5,14 @@ use Dotenv\Dotenv;
 require "vendor/autoload.php";
 
 // Load environment variables from the .env file
-$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv::createImmutable(__DIR__ ); // Adjust path if needed
+;
 $dotenv->load();
 
 try {
     // Connect to MongoDB using the URI from the environment variables
     $client = new MongoDB\Client(getenv('MONGODB_URI'));
-    $db = $client->test_db;
+    $db = $client->test_database;
     $collection = $db->users;
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
