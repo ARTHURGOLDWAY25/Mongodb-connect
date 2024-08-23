@@ -12,8 +12,8 @@
 <main>
     <form action="update-script.php" method="post">
         <label for="email">User Email</label>
-        <input type="email" name="email" id="email" placeholder="User Email" required>
-        <button type="submit">Search User</button>
+        <input type="email" name="email" id="email" placeholder="User Email" required> <br><br>
+        <button type="submit" id="serachUser">Search User</button>
     </form>
     <!-- Modal for displaying user details -->
     <div id="user-details-modal" style="display: none;">
