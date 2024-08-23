@@ -3,22 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>CRUD method</title>
 </head>
 <body>
+ 
 
-<form action="script.php" method="post">
-    <label for="first_name">First Name</label>
-    <input type="text" name="first_name" placeholder="First Name"> <br><br>
+<!-- header -->
+ <header>
 
-    <label for="last_name">Last Name</label>
-    <input type="text" name="last_name" placeholder="Last Name"> <br><br>
+ </header>
 
-    <label for="email">Email</label>
-    <input type="email" name="email" placeholder="Email"> <br><br>
+ <!-- main -->
 
-    <button type="submit">Submit</button>
-</form>
+ <main>
+    <form action="script.php" method="post">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="First Name" required><br><br>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+
+ <!-- footer -->
+  <footer>
+
+  </footer>
+
     
 </body>
 </html>
