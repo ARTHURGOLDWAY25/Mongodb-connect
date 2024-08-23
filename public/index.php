@@ -27,7 +27,8 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Submit</button> 
+        <button type="submit">Click to update user</button>
     </form>
 </main>
 
