@@ -28,7 +28,8 @@
         <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
         <button type="submit">Submit</button> 
-        <button type="submit">Click to update user</button>
+        <button type="submit" id="update-user">Click to update user</button>
+        <a href="update.php" id="update-user">Click to update user</a>
     </form>
 </main>
 
