@@ -10,7 +10,7 @@
 <body>
 
 <main>
-    <form action="update-script.php" method="post">
+    <form action="update-script.php" method="post" id="input-form">
         <label for="email">User Email</label>
         <input type="email" name="email" id="email" placeholder="User Email" required> <br><br>
         <button type="submit" id="serachUser">Search User</button>
@@ -28,6 +28,15 @@
     function closeModal() {
         document.getElementById('user-details-modal').style.display = 'none';
     }
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('input-form');
+    form.reset();
+});
+
+
 </script>
     
 </body>
