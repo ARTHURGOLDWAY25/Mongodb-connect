@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Update</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to your CSS file -->
-    <script src="update-script.js" defer></script> <!-- Optional: Link to your JavaScript file -->
+    <link rel="stylesheet" href="update-styles.css"> 
+    
 </head>
 <body>
 
