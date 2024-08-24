@@ -31,11 +31,10 @@
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('input-form');
-    form.reset();
-});
-
+        window.onload = function() {
+        const form = document.getElementById('input-form');
+        form.reset();
+             };
 
 </script>
     
