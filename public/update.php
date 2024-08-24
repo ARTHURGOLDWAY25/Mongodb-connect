@@ -16,7 +16,7 @@
         <button type="submit" id="serachUser">Search User</button>
     </form>
     <!-- Modal for displaying user details -->
-    <div id="user-details-modal" style="display: none;">
+    <div id="user-details-modal" >
         <div id="user-details">
             <!-- User details will be populated here -->
         </div>
