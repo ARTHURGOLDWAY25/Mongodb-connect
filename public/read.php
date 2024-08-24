@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Update</title>
-    <link rel="stylesheet" href="update-styles.css"> 
+    <link rel="stylesheet" href="read-styles.css">
     
 </head>
 <body>
 
 <main>
-    <form action="update-script.php" method="post" id="input-form">
+    <form action="read-script.php" method="get" id="input-form">
         <label for="email">User Email</label>
         <input type="email" name="email" id="email" placeholder="User Email" required> <br><br>
         <button type="submit" id="serachUser">Search User</button>
