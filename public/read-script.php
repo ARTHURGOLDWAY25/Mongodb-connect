@@ -6,6 +6,8 @@ use MongoDB\Client;
 require __DIR__ . '/../vendor/autoload.php';
 
 $mongoUri = "mongodb+srv://galexport08:zZdWBtdOeXG6bg2M@zoo-project-cluster.qvl73.mongodb.net/test_database?retryWrites=true&w=majority";
+header('Content-Type: application/json');
+
 
 try {
     $client = new Client($mongoUri);

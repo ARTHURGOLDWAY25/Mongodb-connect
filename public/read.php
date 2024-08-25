@@ -10,13 +10,14 @@
 <body>
 
 <main>
-    <form action="read-script.php" method="get" id="input-form">
+    <form id="input-form" action="read-script.php" method="GET">
         <label for="email">User Email</label>
         <input type="email" name="email" id="email" placeholder="User Email" required> <br><br>
-        <button type="submit" id="serachUser">Search User</button>
+        <button type="submit" id="searchUser">Search User</button>
     </form>
+
     <!-- Modal for displaying user details -->
-    <div id="user-details-modal" >
+    <div id="user-details-modal" style="display: none;">
         <div id="user-details">
             <!-- User details will be populated here -->
         </div>
@@ -37,6 +38,10 @@
              };
 
 </script>
-    
+
+<script src="./read_js/read.js"></script>
+
+
+
 </body>
 </html>
