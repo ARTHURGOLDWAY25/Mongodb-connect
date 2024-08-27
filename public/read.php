@@ -6,6 +6,7 @@
     <title>User Update</title>
     <link rel="stylesheet" href="read-styles.css">
     
+    
 </head>
 <body>
 
@@ -14,6 +15,7 @@
         <label for="email">User Email</label>
         <input type="email" name="email" id="email" placeholder="User Email" required> <br><br>
         <button type="submit" id="searchUser">Search User</button>
+        <button type="submit" id="update-navigate-button">Go to update user</button>
     </form>
 
     <!-- Modal for displaying user details -->
@@ -40,6 +42,7 @@
 </script>
 
 <script src="./read_js/read.js"></script>
+<script src="navigate-update.js"></script>
 
 
 

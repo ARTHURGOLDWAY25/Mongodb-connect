@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>CRUD method</title>
 </head>
 <body>
@@ -39,6 +39,6 @@
 
   </footer>
 
-    <script src="./navigate.js"></script>
+    <script src="./read-navigate.js"></script>
 </body>
 </html>
